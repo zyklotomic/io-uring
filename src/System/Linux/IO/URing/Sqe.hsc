@@ -34,6 +34,15 @@ module System.Linux.IO.URing.Sqe
   , dumpSqe
   , peekSqeLink
   , pokeSqeLink
+  -- * Custom builders
+  , setFd
+  , setOpCode
+  , setOff
+  , setAddr
+  , setFlags
+  , setLen
+  , setUserData
+  , zeroIt
   ) where
 
 import Data.Word
